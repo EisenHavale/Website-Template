@@ -1,0 +1,34 @@
+:root{
+    --black: rgb(24, 25, 27);
+    --purple:rgb(177, 1, 107);
+    --cyan: rgb(0, 246, 237);
+    --light_gray: rgb(202, 216, 222);
+    --light_brown: rgb(100, 88, 83);
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.black{
+    background-color: var(--black);
+}
+.purple{
+    background-color: var(--purple);
+}
+.cyan{
+    background-color: var(--cyan);
+}
+.light_gray{
+    background-color: var(--light_gray);
+}
+.light_brown{
+    background-color: var(--light_brown);
+}
+
+.color{
+    color: var(--light_gray);
+}
+
